@@ -12,9 +12,9 @@ public string description { get; set; }
         {
 
         }
-        public Post( int id , string Title, string description, string image)
+        public Post( int Id , string Title, string description, string image)
         {
-            this.Id = id;
+            this.Id = Id;
             
             this.Title = Title;
             this.description = description;

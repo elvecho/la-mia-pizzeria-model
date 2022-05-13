@@ -15,9 +15,9 @@ namespace laMiaPizzeria.Models.Utils
 
             List<Post> nuovalistaposts = new List<Post>();
 
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 5; i++)
             {
-                Post post = new Post(i, "titolo" + i, "ciao", "image");
+                Post post = new Post(i, "pizza" + i, "ciao", "image");
                 nuovalistaposts.Add(post);
 
             }
